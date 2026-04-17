@@ -445,6 +445,7 @@ body {
     margin: 0;
     font-size: 18px;
     font-weight: 600;
+    overflow-wrap: anywhere;
 }
 
 .predictech-link-icon {
@@ -482,6 +483,22 @@ body {
 
 .predictech-description .tech-stack strong {
     color: var(--text-primary);
+}
+
+.predictech-site-link,
+.predictech-repo-link,
+.bellanapoli-site-link,
+.bellanapoli-repo-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.predictech-site-link:hover .predictech-title-row h3,
+.bellanapoli-site-link:hover .bellanapoli-title-row h3 {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-underline-offset: 0.15em;
 }
 
 /* Bella Napoli Card Style */

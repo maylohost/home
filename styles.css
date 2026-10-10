@@ -550,23 +550,24 @@ body {
 }
 
 .bellanapoli-card .link-icon {
-    border-radius: 0;
+    border-radius: 50%;
     background: transparent;
-    width: auto;
-    height: auto;
-    max-width: 300px;
-    max-height: 120px;
+    width: 48px;
+    height: 48px;
+    max-width: 48px;
+    max-height: 48px;
     border: none;
     padding: 0;
     align-self: flex-start;
 }
 
 .bellanapoli-card .link-icon img {
-    width: auto;
-    height: auto;
-    max-width: 300px;
-    max-height: 120px;
+    width: 48px;
+    height: 48px;
+    max-width: 48px;
+    max-height: 48px;
     object-fit: contain;
+    border-radius: 50%;
 }
 
 .bellanapoli-header {
@@ -588,6 +589,7 @@ body {
     margin: 0;
     font-size: 18px;
     font-weight: 600;
+    overflow-wrap: anywhere;
 }
 
 .bellanapoli-link-icon {
